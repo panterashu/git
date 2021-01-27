@@ -1,1 +1,28 @@
 
+git init
+
+git status 
+
+git add nume_fisier
+git add nume_director
+git add . <- tot ce e in directorul curent 
+
+git diff
+git diff - staged 
+
+git commit
+git commit -v
+git commit -m "mesaj"
+
+.gitigone <- ce sa fie ignorat de init
+
+git log
+git log -2 <- cele mai recente 2 commits
+git log -p
+git log --pretty=oneline <- pretty poate sa primeasca si alte valori
+git log grapf <- output sexy 
+
+git commit --amend <- cand ai facut deja commit, dar mai vrei sa bagi ceva in commit
+git revert id_commit <- revert oentru un commit
+
+git cloune url <- sa clonezi local un repo (url afli din git hub la optiuea clone/download)
