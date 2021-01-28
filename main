@@ -26,3 +26,8 @@ git commit --amend <- cand ai facut deja commit, dar mai vrei sa bagi ceva in co
 git revert id_commit <- revert oentru un commit
 
 git cloune url <- sa clonezi local un repo (url afli din git hub la optiuea clone/download)
+
+git remote <- sa vezi remote repos
+git remote add new-remote url 
+git fetch origin
+git merge origin/master master <- face merge din origin/master cu master branch 
