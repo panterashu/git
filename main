@@ -34,3 +34,10 @@ git merge origin/master master <- face merge din origin/master cu master branch
 git push origin master 
 git remote show origin 
 git pull = fetch+merge origin/master master
+
+git tag <- list all tags 
+git tag "1.0" (lightweigh tag)
+git show "1.0"
+git tag -a "1.1" -m "acesta e un tag annotated"  (tip de tag annotated, contine mai multe informatii)
+git push origin 1.1 <- push doar la tag-ul 1.1
+git push origin --tags <- push la toate tagurile
