@@ -31,3 +31,6 @@ git remote <- sa vezi remote repos
 git remote add new-remote url 
 git fetch origin
 git merge origin/master master <- face merge din origin/master cu master branch 
+git push origin master 
+git remote show origin 
+git pull = fetch+merge origin/master master
